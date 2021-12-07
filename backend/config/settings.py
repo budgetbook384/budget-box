@@ -45,9 +45,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.posts',
     'cloudinary',
     'django_filters',
+    'apps.users',
+    'apps.categories',
+    'apps.transactions',
 ]
 
 MIDDLEWARE = [
@@ -162,5 +164,7 @@ cloudinary.config(
 )
 
 REST_FRAMEWORK = {
-    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
+    'DEFAULT_PAGINATION_CLASS': 'config.pagination.CustomizePagination',
+    'PAGE_SIZE': 10
 }
