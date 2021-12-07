@@ -44,5 +44,3 @@ export const UserReducer = (state = initialState.user, action) => {
             return state;
     }
 }
-© 2021 GitHub, Inc.
-Terms
