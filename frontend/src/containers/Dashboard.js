@@ -2,8 +2,8 @@ import React, { createRef, useEffect, useRef, useState } from 'react';
 import { Page, Section } from 'react-page-layout';
 import { useDispatch, useSelector } from 'react-redux';
 
-import CancelModal from './../assets/images/×.png';
-import PieChart from '../components/dashboard/PieChart';
+import CancelModal from './../assets/img/×.png';
+import PieChart from '../components/PieChart';
 import Breadcrumbs from '../components/default/SecondNavBar';
 import { fetchExpenseReport, fetchLast4MonthsReport } from '../reducks/transactions/operations';
 import { getExpenseReport, getLast4MonthsReport } from '../reducks/transactions/selectors';

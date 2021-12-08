@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Page, Section } from 'react-page-layout';
 import { useDispatch, useSelector } from 'react-redux';
 
-import TransactionIcon from '../assets/images/transaction.svg';
+import TransactionIcon from '../assets/img/transaction.svg';
 import AddTransactionBtn from '../components/default/AddTransactionBtn';
 import Empty from '../components/default/Empty';
 import Pagination from '../components/default/Pagination';
