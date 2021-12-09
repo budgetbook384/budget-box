@@ -37,7 +37,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
+VIRTUAL_ENV="C:\Users\Soressa1987\Desktop\GD\budget-box\backend\env"
+=======
 VIRTUAL_ENV="C:\Users\Sana\Desktop\GD\budget-box\backend\env"
+>>>>>>> main
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

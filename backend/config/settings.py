@@ -47,6 +47,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'django_filters',
+    'apps.users',
+    'apps.categories',
+    'apps.transactions',
 ]
 
 MIDDLEWARE = [
@@ -161,7 +164,9 @@ cloudinary.config(
 )
 
 REST_FRAMEWORK = {
-    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
+    'DEFAULT_PAGINATION_CLASS': 'config.pagination.CustomizePagination',
+    'PAGE_SIZE': 10
 }
 
 django_heroku.settings(locals())
