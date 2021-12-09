@@ -1,4 +1,4 @@
-import CancelModal from "../../assets/img/×.png";
+import CancelModal from "../../assets/images/×.png";
 import ErrorInput from "../default/ErrorInput";
 
 const ManageTransactionModal = (props) => {

@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { useHistory } from "react-router";
 import { Link } from "react-router-dom";
 import { LOGIN_USER_KEY } from "../../API";
-import defaultProfile from '../../assets/img/account_circle.png'
+import defaultProfile from '../../assets/images/account_circle.png'
 
 import { signOutAction } from "../../reducks/users/actions";
 

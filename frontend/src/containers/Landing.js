@@ -1,8 +1,8 @@
 import React from "react";
 import { Page, Section } from "react-page-layout";
 import SignupForm from "../components/landing-page/SignupForm";
-import exampleImage from "../assets/img/landing-pic-desktop.png";
-import exampleImageMobile from "../assets/img/landing-pic-mobile.png";
+import exampleImage from "../assets/images/landing-pic-desktop.png";
+import exampleImageMobile from "../assets/images/landing-pic-mobile.png";
 import { Link } from "react-router-dom";
 
 export default function Landing() {

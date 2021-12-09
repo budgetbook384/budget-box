@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-import Logo from "../../assets/img/logo.png";
+import Logo from "../../assets/images/logo.png";
 import { getUser } from "../../reducks/users/selectors";
 import ProfileHeader from "./ProfileHeader";
 

@@ -2,12 +2,12 @@ import React from "react";
 import { Slot } from "react-page-layout";
 import { useHistory } from "react-router";
 import Header from "./Header";
-import dashboard from "../../assets/img/dashboard.png";
-import list from "../../assets/img/list_alt.png";
-import profile from "../../assets/img/account_circle.png";
-import dashboardActive from "../../assets/img/dashboard_white.png";
-import listActive from "../../assets/img/list_alt_white.png";
-import profileActive from "../../assets/img/account_circle_white.png";
+import dashboard from "../../assets/images/dashboard.png";
+import list from "../../assets/images/list_alt.png";
+import profile from "../../assets/images/account_circle.png";
+import dashboardActive from "../../assets/images/dashboard_white.png";
+import listActive from "../../assets/images/list_alt_white.png";
+import profileActive from "../../assets/images/account_circle_white.png";
 import { Link } from "react-router-dom";
 
 export default function DefaultLayout() {
