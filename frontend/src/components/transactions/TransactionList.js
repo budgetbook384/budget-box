@@ -16,7 +16,7 @@ const TransactionList = (props) => {
 				<td>{category.name}</td>
 				<td>{name}</td>
 				<td className="income-amount">
-					<span> + </span> $ {amount}
+					<span> + </span> ${amount}
 				</td>
 			</tr>
 		);
@@ -27,7 +27,7 @@ const TransactionList = (props) => {
 				<td>{category.name}</td>
 				<td>{name}</td>
 				<td className="expense-amount">
-					<span> - </span> $ {amount}
+					<span> - </span> ${amount}
 				</td>
 			</tr>
 		);

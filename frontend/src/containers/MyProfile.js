@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Page, Section } from "react-page-layout";
 import { useDispatch, useSelector } from "react-redux";
-import uploadImage from "../assets/img/add-profile.png";
+import uploadImage from "../assets/images/add-profile.png";
 import { updateProfile } from "../reducks/users/operations";
 import { getUser } from "../reducks/users/selectors";
 

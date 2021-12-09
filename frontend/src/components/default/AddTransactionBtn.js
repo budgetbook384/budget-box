@@ -1,4 +1,4 @@
-import AddIcon from "../../assets/img/add-icon.png";
+import AddIcon from "../../assets/images/add-icon.png";
 const AddTransactionBtn = (props) => {
 	const { openAddReportModalHandler } = props;
 	return (
