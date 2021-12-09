@@ -168,3 +168,5 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'config.pagination.CustomizePagination',
     'PAGE_SIZE': 10
 }
+
+django_heroku.settings(locals())
