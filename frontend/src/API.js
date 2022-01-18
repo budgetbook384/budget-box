@@ -1,15 +1,14 @@
 import axios from "axios";
 
 export const LOGIN_USER_KEY = "BUDGET_NOTEBOOK_LOGIN_USER_KEY";
+const { REACT_APP_ENVIRONMENT, REACT_APP_API_BASE_URL_PROD, REACT_APP_API_BASE_URL_DEV } = process.env;
+let baseURL;
 
-// var baseURL;
-// // if (
-// //   process.env.REACT_APP_ENVIRONMENT &&
-// //   process.env.REACT_APP_ENVIRONMENT === "PRODUCTION"
-// // ) {
-// //   baseURL = process.env.REACT_APP_API_BASE_URL;
-// // } else {
-//   baseURL = "https://budget-box-backend.herokuapp.com/";
+if (REACT_APP_ENVIRONMENT === "PRODUCTION") {
+	baseURL = REACT_APP_API_BASE_URL_PROD;
+} else {
+	baseURL = REACT_APP_API_BASE_URL_DEV;
+}
 
 const api = axios.create({
   baseURL: baseURL,
